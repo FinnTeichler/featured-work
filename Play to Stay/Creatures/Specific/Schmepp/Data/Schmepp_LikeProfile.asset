@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87728deae9d8737468e5311c4bef1e7b, type: 3}
+  m_Name: Schmepp_LikeProfile
+  m_EditorClassIdentifier: 
+  trustfulnessFactor: 0.8
+  likeSetHierarchy:
+  - {fileID: 11400000, guid: 413300e4724767d4688f81cd9fd38b90, type: 2}
+  possibleLevels:
+  - cost: 0
+    name: Fearful
+    uiColor: {r: 0.8980392, g: 0.5055153, b: 0.34901962, a: 1}
+    behaviourID: {fileID: 11400000, guid: 29ae1e08bf6bc7840be02fe218582de3, type: 2}
+  - cost: 150
+    name: Trust
+    uiColor: {r: 0.8980393, g: 0.7960785, b: 0.34901962, a: 1}
+    behaviourID: {fileID: 11400000, guid: 2a45fbfa1a3e0ce468f33a2994d8aeb7, type: 2}
+  - cost: 400
+    name: Sympathy
+    uiColor: {r: 0.50373095, g: 0.764151, b: 0.36405307, a: 1}
+    behaviourID: {fileID: 11400000, guid: 44d5f9e33ed177b44b04145c4a48e216, type: 2}
+  - cost: 700
+    name: Love
+    uiColor: {r: 0.36470592, g: 0.7647059, b: 0.74146736, a: 1}
+    behaviourID: {fileID: 11400000, guid: 120fe5ed0e1727543a4d8cbe2b50c208, type: 2}

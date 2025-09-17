@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87728deae9d8737468e5311c4bef1e7b, type: 3}
+  m_Name: Beaut_LikeProfile
+  m_EditorClassIdentifier: 
+  trustfulnessFactor: 1
+  likeSetHierarchy:
+  - {fileID: 11400000, guid: 37029037b1b4f114b99d9df278a9bf8a, type: 2}
+  possibleLevels:
+  - cost: 0
+    name: Disinterest
+    uiColor: {r: 0.8980393, g: 0.7960785, b: 0.34901962, a: 1}
+    behaviourID: {fileID: 11400000, guid: fbf97f9e70bf6da498d16cab068272d1, type: 2}
+  - cost: 300
+    name: Sympathy
+    uiColor: {r: 0.50373095, g: 0.764151, b: 0.36405307, a: 1}
+    behaviourID: {fileID: 11400000, guid: 21ed039705d05154e86cc83536571694, type: 2}
+  - cost: 600
+    name: Love
+    uiColor: {r: 0.36470592, g: 0.7647059, b: 0.7293924, a: 1}
+    behaviourID: {fileID: 11400000, guid: daedd9e043a77bb43b331e11e1378980, type: 2}

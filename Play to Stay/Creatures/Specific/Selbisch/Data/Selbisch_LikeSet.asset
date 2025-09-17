@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3217029a0a2da545a907ca4630f5217, type: 3}
+  m_Name: Selbisch_LikeSet
+  m_EditorClassIdentifier: 
+  likeInfos:
+  - interactionProperties:
+    - {fileID: 11400000, guid: b1d35a107140ac249b324533bb820189, type: 2}
+    - {fileID: 11400000, guid: f7769fe222bb9d448ad4bf1b94a0b554, type: 2}
+    likeLevel: {fileID: 11400000, guid: f88149d7116e9494c9952c84b5b05874, type: 2}
+  - interactionProperties:
+    - {fileID: 11400000, guid: a1922216847461e42bf903a85306dca7, type: 2}
+    - {fileID: 11400000, guid: 1ee65522e8409f948a1370b4fcceb255, type: 2}
+    likeLevel: {fileID: 11400000, guid: 1396def8c3c2b7641b7b4a559f19cd30, type: 2}
+  - interactionProperties:
+    - {fileID: 11400000, guid: a52fd38f6277d4843b62c5b98211effc, type: 2}
+    likeLevel: {fileID: 11400000, guid: 4d940559b0c68bb40a4f0f423d53498a, type: 2}
+  - interactionProperties:
+    - {fileID: 11400000, guid: b52fa7932cb669547a491eb6d2269124, type: 2}
+    - {fileID: 11400000, guid: 7a25fe71905bdba4b80f561c1ca53330, type: 2}
+    likeLevel: {fileID: 11400000, guid: 53f27d03550b0f14e860664d9e9b7903, type: 2}
+  - interactionProperties:
+    - {fileID: 11400000, guid: c0c05698183c3e14f89d18d6e6189ed9, type: 2}
+    likeLevel: {fileID: 11400000, guid: 71c348f898bd50842865b60d97d62ed1, type: 2}

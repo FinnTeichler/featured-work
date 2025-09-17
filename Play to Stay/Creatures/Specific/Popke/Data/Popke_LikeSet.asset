@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3217029a0a2da545a907ca4630f5217, type: 3}
+  m_Name: Popke_LikeSet
+  m_EditorClassIdentifier: 
+  likeInfos:
+  - interactionProperties:
+    - {fileID: 11400000, guid: 18d7a869e43be7543b332cba376abedf, type: 2}
+    - {fileID: 11400000, guid: 3cf6b9d9226abf545b07233d480bdb70, type: 2}
+    - {fileID: 11400000, guid: 1ee65522e8409f948a1370b4fcceb255, type: 2}
+    likeLevel: {fileID: 11400000, guid: 1396def8c3c2b7641b7b4a559f19cd30, type: 2}
+  - interactionProperties:
+    - {fileID: 11400000, guid: b52fa7932cb669547a491eb6d2269124, type: 2}
+    - {fileID: 11400000, guid: 7a25fe71905bdba4b80f561c1ca53330, type: 2}
+    - {fileID: 11400000, guid: b1d35a107140ac249b324533bb820189, type: 2}
+    - {fileID: 11400000, guid: e02f29edb34ed52488d14c971e3bf6b8, type: 2}
+    - {fileID: 11400000, guid: 4bcdf4ba65217ff45b82bb44c43aaca9, type: 2}
+    - {fileID: 11400000, guid: 0b999dfe756128c44a6da668d5a62e00, type: 2}
+    - {fileID: 11400000, guid: 914ae7669cf051948aec1b615c445731, type: 2}
+    - {fileID: 11400000, guid: c0c05698183c3e14f89d18d6e6189ed9, type: 2}
+    likeLevel: {fileID: 11400000, guid: 8dd4d6230743e1845b81b1cdf621da2d, type: 2}

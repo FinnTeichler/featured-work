@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3217029a0a2da545a907ca4630f5217, type: 3}
+  m_Name: Giblets_LikeSet
+  m_EditorClassIdentifier: 
+  likeInfos:
+  - interactionProperties:
+    - {fileID: 11400000, guid: 4bcdf4ba65217ff45b82bb44c43aaca9, type: 2}
+    likeLevel: {fileID: 11400000, guid: 4d940559b0c68bb40a4f0f423d53498a, type: 2}
+  - interactionProperties:
+    - {fileID: 11400000, guid: 0b999dfe756128c44a6da668d5a62e00, type: 2}
+    likeLevel: {fileID: 11400000, guid: 8dd4d6230743e1845b81b1cdf621da2d, type: 2}

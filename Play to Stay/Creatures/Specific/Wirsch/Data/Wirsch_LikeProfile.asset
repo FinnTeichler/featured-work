@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87728deae9d8737468e5311c4bef1e7b, type: 3}
+  m_Name: Wirsch_LikeProfile
+  m_EditorClassIdentifier: 
+  trustfulnessFactor: 1
+  likeSetHierarchy:
+  - {fileID: 11400000, guid: 7c7ebd27137634e4baca5bd2f25bc3da, type: 2}
+  possibleLevels:
+  - cost: 0
+    name: Hatred
+    uiColor: {r: 0.8980393, g: 0.7960785, b: 0.34901962, a: 1}
+    behaviourID: {fileID: 11400000, guid: cc8d6e147828cd24f9bb3f0daf693da7, type: 2}
+  - cost: 300
+    name: Non-Hatred
+    uiColor: {r: 0.50373095, g: 0.764151, b: 0.36405307, a: 1}
+    behaviourID: {fileID: 11400000, guid: ffdde7f68a1b16a4486313c5a1ced7b9, type: 2}
+  - cost: 600
+    name: Begrudging Respect
+    uiColor: {r: 0.36470592, g: 0.7647059, b: 0.7293924, a: 1}
+    behaviourID: {fileID: 11400000, guid: 2280d6c70f7c659438acaebc37e72f0e, type: 2}

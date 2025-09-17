@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87728deae9d8737468e5311c4bef1e7b, type: 3}
+  m_Name: Sprong_LikeProfile
+  m_EditorClassIdentifier: 
+  trustfulnessFactor: 1
+  likeSetHierarchy:
+  - {fileID: 11400000, guid: 5c1d971eb0dcd0247a126db3e57b468e, type: 2}
+  possibleLevels:
+  - cost: 0
+    name: Fearful
+    uiColor: {r: 0.8980392, g: 0.7962869, b: 0.34901962, a: 1}
+    behaviourID: {fileID: 11400000, guid: 174eb134dc1972e4d87f691735f7039b, type: 2}
+  - cost: 200
+    name: Infatuated
+    uiColor: {r: 0.50373095, g: 0.764151, b: 0.36405307, a: 1}
+    behaviourID: {fileID: 11400000, guid: 71ef7d2f7cc746840ac572430bc53e01, type: 2}

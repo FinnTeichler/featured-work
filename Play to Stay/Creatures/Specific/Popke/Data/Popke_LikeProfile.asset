@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87728deae9d8737468e5311c4bef1e7b, type: 3}
+  m_Name: Popke_LikeProfile
+  m_EditorClassIdentifier: 
+  trustfulnessFactor: 1
+  likeSetHierarchy:
+  - {fileID: 11400000, guid: 99af6f26f1bfa0845a1228cd97f0eccf, type: 2}
+  possibleLevels:
+  - cost: 0
+    name: Scared
+    uiColor: {r: 0.8980392, g: 0.53984475, b: 0.34901962, a: 1}
+    behaviourID: {fileID: 11400000, guid: f8de27d82b2790148ab0bb041700134e, type: 2}
+  - cost: 150
+    name: Trust
+    uiColor: {r: 1, g: 0.8725665, b: 0.4198113, a: 1}
+    behaviourID: {fileID: 11400000, guid: a5f1be56d9b26ea41bb75da6876c4f68, type: 2}
+  - cost: 300
+    name: Sympathy
+    uiColor: {r: 0.50373095, g: 0.764151, b: 0.36405307, a: 1}
+    behaviourID: {fileID: 11400000, guid: 6cb7c887efb58c347899ab35f6615f89, type: 2}
+  - cost: 600
+    name: Love
+    uiColor: {r: 0.36470592, g: 0.7647059, b: 0.7293924, a: 1}
+    behaviourID: {fileID: 11400000, guid: 8ae9c1016c7f86b4caf4e131f2230824, type: 2}
+  - cost: 1000
+    name: Friends Forever
+    uiColor: {r: 1, g: 0.4292453, b: 0.9212753, a: 1}
+    behaviourID: {fileID: 11400000, guid: 4324e5be95d8dd0468bb3fdd5f6f0298, type: 2}

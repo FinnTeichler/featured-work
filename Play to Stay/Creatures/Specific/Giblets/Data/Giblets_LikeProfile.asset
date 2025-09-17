@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87728deae9d8737468e5311c4bef1e7b, type: 3}
+  m_Name: Giblets_LikeProfile
+  m_EditorClassIdentifier: 
+  trustfulnessFactor: 1
+  likeSetHierarchy:
+  - {fileID: 11400000, guid: 69fb258d83cf98b46ae42156bc792ea8, type: 2}
+  possibleLevels:
+  - cost: 0
+    name: Disinterest
+    uiColor: {r: 0.8980393, g: 0.7960785, b: 0.34901962, a: 1}
+    behaviourID: {fileID: 11400000, guid: 44d998031e4fbab45af6de0bbd85dc80, type: 2}
+  - cost: 200
+    name: Sympathy
+    uiColor: {r: 0.5019608, g: 0.76470596, b: 0.3647059, a: 1}
+    behaviourID: {fileID: 11400000, guid: d5055f43ef7972948913131f05638db7, type: 2}
